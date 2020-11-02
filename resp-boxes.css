@@ -1,0 +1,120 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid black; */
+    /* overflow: hidden; */
+}
+
+.container{
+    background-color: silver;
+    padding: 10px;
+    height: auto;
+}
+
+.col{
+    height: 150px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 5px 0;
+}
+
+.row{
+    padding: 10px;
+}
+
+
+.header{
+    background-color: green;
+}
+
+.navigation{
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.main_content{
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subcontents{
+    background-color: yellow;
+}
+
+.advertisement{
+    background-color: purple;
+}
+
+@media only screen and (max-width: 480px){
+    .sm-0{
+      display: none;
+    }
+  
+    .asm-1{
+      width: 100%;
+    }
+  }
+
+  .bsm-1{
+    width: 94%;
+  }
+
+  .csm-1{
+    width: 100%;
+  }
+
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .md-0{
+      display: none;
+    }
+
+    .md-1{
+        width: 49%;
+    }
+
+    .amd-2{
+      width: 98%;
+    }
+
+    .bmd-2{
+        width: 96%;
+      }
+
+    .cmd-2{
+        width: 99%;
+    }
+  }
+
+  @media only screen and (min-width: 1024px){
+    .lg-0{
+      display: none;
+    }
+  
+    .lg-1-3{
+        width:  32%;
+    }
+
+    .lg-1{
+        width: 20%;
+      }
+
+    .lg-3{
+        width: 76%;
+    }
+
+    .alg-4{
+        width: 99%;
+      }
+
+    .blg-4{
+      width: 97%;
+    }
+
+  }
